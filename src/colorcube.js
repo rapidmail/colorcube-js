@@ -26,7 +26,6 @@ ColorCube Class
 export default function( resolution = 20,
                     bright_threshold = 0.2,
                     distinct_threshold = 0.4 ) {
-  "use strict";
 
 
 
