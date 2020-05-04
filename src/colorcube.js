@@ -23,7 +23,7 @@ ColorCube Class
   Uses a 3d RGB histogram to find local maximas in the density distribution
   in order to retrieve dominant colors of pixel images
 */
-function ColorCube( resolution = 20,
+export default function( resolution = 20,
                     bright_threshold = 0.2,
                     distinct_threshold = 0.4 ) {
   "use strict";
