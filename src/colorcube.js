@@ -54,6 +54,8 @@ export default function( resolution = 20,
 
     let canvas  = document.createElement('canvas');
     let context = canvas.getContext('2d');
+    
+    image.crossOrigin = "Anonymous";
 
     // document.body.appendChild(canvas);
 
